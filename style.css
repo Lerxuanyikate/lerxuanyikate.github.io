@@ -18,7 +18,7 @@ header {
   justify-content: space-between; 
   align-items: center;
   padding: 1rem 2rem;
-  background: #007bff;
+  background: #1d2675;
   position: fixed; 
   top: 0;
   width: 100%;
@@ -50,5 +50,5 @@ section {
 }
 
 section:nth-child(odd) {
-  background:#082E6D;
+  background: #1d2675;
 }
