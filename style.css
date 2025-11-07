@@ -5,6 +5,8 @@ body {
   font-weight: bold;
   scroll-behavior: smooth;
   color: #6CB1D3; 
+  margin: 0;
+  padding: 0;
 }
 
 /* Header / Navbar */
@@ -20,7 +22,7 @@ header.navbar {
   top: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* optional subtle shadow */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* Nav links */
@@ -37,14 +39,85 @@ nav a:hover {
   color: #082E6D; /* hover contrast */
 }
 
-/* Hero and other sections */
-section {
-  padding: 100px 20px;
-  min-height: 100vh;
-  background: #082E6D; /
-  color: #6CB1D3;
+/* Hero section */
+.hero {
+  padding: 150px 20px 100px 20px;
+  min-height: 50vh;
+  text-align: center;
 }
 
 .hero h1 {
   color: white; 
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #6CB1D3;
+}
+
+/* Sections */
+section {
+  padding: 80px 20px;
+}
+
+/* Projects Section */
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  background-color: #215D8E;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  color: #6CB1D3;
+}
+
+.project-card h3 {
+  margin: 10px 0 5px 0;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #6CB1D3;
+  color: #082E6D;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.project-card a:hover {
+  background-color: white;
+  color: #215D8E;
+}
+
+/* Contact Section */
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact li {
+  margin: 5px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #215D8E;
+  color: #6CB1D3;
 }
