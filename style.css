@@ -1,23 +1,26 @@
-
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body */
 body {
-  background: #215D8E;
+  background: #082E6D;  
   font-family: "Noteworthy", "Comic Sans MS", sans-serif;
   font-weight: bold;
   scroll-behavior: smooth;
+  color: #6CB1D3;  
 }
 
+/* Header / Navbar */
 header.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #215D8E;
-  font-family: "Noteworthy", "Comic Sans MS", sans-serif;
+  background-color: white;  
+  font-family: inherit;
   font-weight: bold;
   padding: 20px 50px;
   position: fixed;
@@ -26,37 +29,32 @@ header.navbar {
   z-index: 1000;
 }
 
-
+/* Logo */
 .logo {
   width: 30px;
   height: 30px;
 }
 
-.hero {
-  color: #6CB1D3;
-}
-
 /* Nav links */
 nav a {
-  color: #6CB1D3;
+  color: #6CB1D3;  
   text-decoration: none;
   margin-left: 1.5rem;
   font-weight: 600;
-  font-family: inherit;
+  font-family: inherit; /* 
   transition: color 0.2s;
 }
 
-
 nav a:hover {
-  color: #6CB1D3;
+  color: #ffffff;  
 }
 
-/* Sections */
-section {
+/* Hero section */
+.hero {
   padding: 100px 20px;
   min-height: 100vh;
+  color: #6CB1D3;  
 }
 
-section:nth-child(odd) {
-  background: #1d2675;
-}
+.hero h1 {
+  color: whit
