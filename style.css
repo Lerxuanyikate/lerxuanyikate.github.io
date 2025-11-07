@@ -18,7 +18,7 @@ header {
   justify-content: space-between; 
   align-items: center;
   padding: 1rem 2rem;
-  background: #1d2675;
+  background: #215D8E;
   position: fixed; 
   top: 0;
   width: 100%;
@@ -33,6 +33,7 @@ header {
 .hero h1 {
   color: #6CB1D3;
 }
+
 .hero-content h1 span {
   color: #6CB1D3;
 }
