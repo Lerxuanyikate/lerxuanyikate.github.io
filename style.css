@@ -31,7 +31,7 @@ header {
 
 /* Nav links */
 nav a {
-  color: blue;
+  color: #6CB1D3;
   text-decoration: none;
   margin-left: 1.5rem;
   font-weight: 600;
@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffea00;
+  color: #6CB1D3;
 }
 
 /* Sections */
@@ -49,5 +49,5 @@ section {
 }
 
 section:nth-child(odd) {
-  background:#3e4ee5;
+  background:#082E6D;
 }
