@@ -1,10 +1,10 @@
 /* Body and general sections */
 body {
-  background: #082E6D; /* site-wide background */
+  background: #082E6D; 
   font-family: "Noteworthy", "Comic Sans MS", sans-serif;
   font-weight: bold;
   scroll-behavior: smooth;
-  color: #6CB1D3; /* text color */
+  color: #6CB1D3; 
 }
 
 /* Header / Navbar */
@@ -12,7 +12,7 @@ header.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff; /* different color from the site */
+  background-color: #215D8E;
   font-family: inherit;
   font-weight: bold;
   padding: 20px 50px;
@@ -25,7 +25,7 @@ header.navbar {
 
 /* Nav links */
 nav a {
-  color: #6CB1D3; /* consistent text color */
+  color: #6CB1D3; 
   text-decoration: none;
   margin-left: 1.5rem;
   font-weight: 600;
@@ -41,10 +41,10 @@ nav a:hover {
 section {
   padding: 100px 20px;
   min-height: 100vh;
-  background: #082E6D; /* consistent page background */
+  background: #082E6D; /
   color: #6CB1D3;
 }
 
 .hero h1 {
-  color: white; /* headline stands out */
+  color: white; 
 }
