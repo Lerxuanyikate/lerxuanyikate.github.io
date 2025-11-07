@@ -12,18 +12,20 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Header layout */
-header {
+header.navbar {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background: white;
-  position: fixed; 
+  background-color: #215D8E;
+  font-family: "Noteworthy", "Comic Sans MS", sans-serif;
+  font-weight: bold;
+  padding: 20px 50px;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
 }
+
 
 .logo {
   width: 30px;
@@ -34,26 +36,16 @@ header {
   color: #6CB1D3;
 }
 
-
-.navbar {
-  background-color: #215D8E;
-  font-family: "Noteworthy", "Comic Sans MS", sans-serif;
-  font-weight: bold;
-  padding: 20px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
 /* Nav links */
 nav a {
   color: #6CB1D3;
   text-decoration: none;
   margin-left: 1.5rem;
   font-weight: 600;
+  font-family: inherit;
   transition: color 0.2s;
 }
+
 
 nav a:hover {
   color: #6CB1D3;
