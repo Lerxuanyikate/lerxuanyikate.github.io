@@ -6,8 +6,9 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth; /* enables smooth scrolling */
+  font-family: "Noteworthy", "Comic Sans MS", sans-serif;
+  font-weight: bold;
+  scroll-behavior: smooth;
 }
 
 /* Header layout */
