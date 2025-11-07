@@ -40,6 +40,8 @@ header {
 
 .navbar {
   background-color: #215D8E;
+  font-family: "Noteworthy", "Comic Sans MS", sans-serif;
+  font-weight: bold;
   padding: 20px 50px;
   display: flex;
   justify-content: space-between;
