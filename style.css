@@ -11,6 +11,7 @@ body {
   font-weight: bold;
   scroll-behavior: smooth;
 }
+
 /* Header layout */
 header {
   display: flex;
@@ -29,7 +30,7 @@ header {
   height: 30px;
 }
 
-h1 {
+.hero h1 {
   color: #6CB1D3;
 }
 .hero-content h1 span {
