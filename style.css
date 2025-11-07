@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #082E6D
 }
 
 body {
@@ -18,7 +19,7 @@ header {
   align-items: center;
   padding: 1rem 2rem;
   background: #007bff;
-  position: fixed; /* keeps navbar on top when scrolling */
+  position: fixed; 
   top: 0;
   width: 100%;
   z-index: 1000;
