@@ -30,13 +30,10 @@ header {
   height: 30px;
 }
 
-.hero h1 {
+.hero {
   color: #6CB1D3;
 }
 
-.hero-content h1 span {
-  color: #6CB1D3;
-}
 
 .navbar {
   background-color: #215D8E;
