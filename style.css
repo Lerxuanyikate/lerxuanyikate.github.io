@@ -1,17 +1,10 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body */
+/* Body and general sections */
 body {
-  background: #082E6D; 
+  background: #082E6D; /* site-wide background */
   font-family: "Noteworthy", "Comic Sans MS", sans-serif;
   font-weight: bold;
   scroll-behavior: smooth;
-  color: #6CB1D3;  
+  color: #6CB1D3; /* text color */
 }
 
 /* Header / Navbar */
@@ -19,7 +12,7 @@ header.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;  
+  background-color: #ffffff; /* different color from the site */
   font-family: inherit;
   font-weight: bold;
   padding: 20px 50px;
@@ -27,12 +20,7 @@ header.navbar {
   top: 0;
   width: 100%;
   z-index: 1000;
-}
-
-/* Logo */
-.logo {
-  width: 30px;
-  height: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* optional subtle shadow */
 }
 
 /* Nav links */
@@ -41,29 +29,22 @@ nav a {
   text-decoration: none;
   margin-left: 1.5rem;
   font-weight: 600;
-  font-family: inherit; /* inherit navbar font */
+  font-family: inherit;
   transition: color 0.2s;
 }
 
 nav a:hover {
-  color: #ffffff; /* optional hover color for contrast */
+  color: #082E6D; /* hover contrast */
 }
 
-/* Hero section */
-.hero {
-  padding: 100px 20px;
-  min-height: 100vh;
-  color: #6CB1D3;  
-}
-
-.hero h1 {
-  color: white; 
-}
-
-/* Other sections */
+/* Hero and other sections */
 section {
   padding: 100px 20px;
   min-height: 100vh;
-  color: #6CB1D3;  
-  background: #082E6D;  
+  background: #082E6D; /* consistent page background */
+  color: #6CB1D3;
+}
+
+.hero h1 {
+  color: white; /* headline stands out */
 }
