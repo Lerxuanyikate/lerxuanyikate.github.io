@@ -38,6 +38,14 @@ header {
   color: #6CB1D3;
 }
 
+.navbar {
+  background-color: #215D8E;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 /* Nav links */
 nav a {
