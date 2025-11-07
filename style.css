@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #1d2675
 }
 
 body {
+  background: #1d2675
   font-family: "Noteworthy", "Comic Sans MS", sans-serif;
   font-weight: bold;
   scroll-behavior: smooth;
