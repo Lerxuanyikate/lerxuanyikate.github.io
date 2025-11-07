@@ -7,7 +7,7 @@
 
 /* Body */
 body {
-  background: #082E6D;  
+  background: #082E6D; 
   font-family: "Noteworthy", "Comic Sans MS", sans-serif;
   font-weight: bold;
   scroll-behavior: smooth;
@@ -37,16 +37,16 @@ header.navbar {
 
 /* Nav links */
 nav a {
-  color: #6CB1D3;  
+  color: #6CB1D3; /* consistent text color */
   text-decoration: none;
   margin-left: 1.5rem;
   font-weight: 600;
-  font-family: inherit; /* 
+  font-family: inherit; /* inherit navbar font */
   transition: color 0.2s;
 }
 
 nav a:hover {
-  color: #ffffff;  
+  color: #ffffff; /* optional hover color for contrast */
 }
 
 /* Hero section */
@@ -57,4 +57,13 @@ nav a:hover {
 }
 
 .hero h1 {
-  color: whit
+  color: white; 
+}
+
+/* Other sections */
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+  color: #6CB1D3;  
+  background: #082E6D;  
+}
