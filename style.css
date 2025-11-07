@@ -12,10 +12,19 @@ body {
 }
 
 header {
-  text-align: center;
-  padding: 4rem 1rem;
-  background: linear-gradient(120deg, #007bff, #00c6ff);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 2rem;
+  background: #007bff;
   color: white;
+}
+
+.logo {
+  width: 50px;   /* Adjust size */
+  height: 50px;
+  margin-right: 1rem;
+  border-radius: 50%; /* Optional: make it circular */
 }
 
 header h1 {
