@@ -30,6 +30,29 @@ header.navbar {
   height: auto;
 }
 
+/* About section layout */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 12px; 
+}
+
+.about-text {
+  flex: 1; 
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
 /* Nav links */
 nav a {
   color: #6CB1D3; 
@@ -78,7 +101,7 @@ section {
   background-color: #215D8E;
   padding: 20px;
   border-radius: 10px;
-  width: 400px;
+  width: 500px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   color: #6CB1D3;
