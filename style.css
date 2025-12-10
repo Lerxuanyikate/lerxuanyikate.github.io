@@ -36,6 +36,8 @@ section h2 {
 }
 
 /* section */
+/* Whole section background */
+
 .about-container {
   display: flex;
   align-items: center;
@@ -45,17 +47,42 @@ section h2 {
   padding: 20px;
 }
 
+.about-title {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  color: #7ab3ff; 
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.about-text {
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: "Noteworthy Bold", cursive; 
+}
+
+.about-text h2 {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
 .about-img {
   width: 300px;
   height: 400px; 
   border-radius: 12px; 
 }
 
-.about-text {
-  flex: 1; 
-  line-height: 1.6;
-  font-size: 1rem;
-}
 
 /* Nav links */
 nav a {
