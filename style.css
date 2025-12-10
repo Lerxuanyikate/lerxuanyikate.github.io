@@ -144,7 +144,16 @@ section {
 .project-card a {
   display: inline-block;
   margin-top: 10px;
-  color: #6CB1D3;
+  color: #082E6D;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.project-card a:hover {
+  background-color: #e0e0e0;
 }
 
 #contact ul {
