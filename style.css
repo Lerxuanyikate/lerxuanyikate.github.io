@@ -130,29 +130,19 @@ section {
   font-size: 20px;
 }
 
-.project-card {
-  background-color: #6CB1D3;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+.project-card 
+{ background: #6CB1D3; 
+ padding: 20px; 
+ border-radius: 10px; 
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); } 
 
-.project-card h4 {
-  margin-bottom: 8px;
-}
+.project-card h4 
+{ margin-bottom: 8px; } 
 
-.project-card a {
-  display: inline-block;
-  margin-top: 10px;
-  color: #ffffff;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px; 
-  background-color: #082E6D; 
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  transition: background-color 0.2s;
-}
+.project-card a 
+{ display: inline-block; 
+ margin-top: 10px; 
+ color: #0077ff; }
 
 .project-card a:hover {
   background-color: #215D8E; 
