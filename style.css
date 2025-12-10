@@ -134,11 +134,21 @@ section {
   background-color: #6CB1D3;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  color: #082E6D;
 }
 
 .project-card h4 {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #082E6D;
+}
+
+.project-card p {
+  margin-bottom: 15px;
+  color: #082E6D;
+  line-height: 1.5;
 }
 
 .project-card a {
@@ -148,14 +158,14 @@ section {
   font-weight: bold;
   text-decoration: none;
   padding: 10px 20px;
-  border-radius: 5px; 
-  background-color: #082E6D; 
+  border-radius: 5px;
+  background-color: #082E6D;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   transition: background-color 0.2s;
 }
 
 .project-card a:hover {
-  background-color: #215D8E; 
+  background-color: #215D8E;
 }
 
 #contact ul {
