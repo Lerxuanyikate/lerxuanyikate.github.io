@@ -35,7 +35,7 @@ section h2 {
   height: auto;
 }
 
-/* section *//* Whole section background */
+/* section */
 .about-section {
   background-color: #083d7b; /* Dark blue like your screenshot */
   color: white;
@@ -153,8 +153,9 @@ section {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
+  padding: 0 20px;
 }
 
 .project-card {
