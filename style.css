@@ -132,23 +132,6 @@ section {
   font-size: 20px;
 }
 
-.project-category {
-  margin-bottom: 40px;
-}
-
-.project-category h3 {
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-  padding: 0 20px;
-}
-
 .project-card {
   background-color: #215D8E;
   padding: 20px;
