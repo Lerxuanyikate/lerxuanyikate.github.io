@@ -144,17 +144,18 @@ section {
 .project-card a {
   display: inline-block;
   margin-top: 10px;
-  color: #082E6D;
+  color: #ffffff;
   font-weight: bold;
   text-decoration: none;
-  padding: 8px 12px;
-  background-color: #ffffff;
+  padding: 10px 20px;
   border-radius: 5px; 
+  background-color: #082E6D; 
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: background-color 0.2s;
 }
 
 .project-card a:hover {
-  background-color: #e0e0e0;
+  background-color: #215D8E; 
 }
 
 #contact ul {
