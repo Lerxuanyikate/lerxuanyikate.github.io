@@ -46,17 +46,17 @@ section h2 {
   color: #6CB1D3;
 }
 
-/* === About Me Section === */
+/* About Me */
 #about {
   padding: 60px 20px;
 }
 
 .about-container {
   display: flex;
-  flex-wrap: wrap; /* stacks on small screens */
+  flex-wrap: wrap;
   align-items: center;
   gap: 20px;
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -121,16 +121,6 @@ nav a:hover {
   .hero p {
     font-size: 1rem;
   }
-}
-
-.hero h1 {
-  color: white;
-  font-size: 2.5rem;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  color: #6CB1D3;
 }
 
 section {
