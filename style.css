@@ -158,6 +158,9 @@ section {
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #6CB1D3;
   color: #082E6D;
   padding: 20px;
