@@ -149,6 +149,10 @@ section {
   transition: background-color 0.2s, transform 0.2s;
 }
 
+.view-text {
+  color: #ffffff;
+}
+
 .category-card {
   width: 100%;
   max-width: 500px;
