@@ -132,7 +132,7 @@ section {
   display: inline-block;
   margin-top: 12px;
   padding: 8px 16px;
-  background-color: #082E6D;
+  background-color: #215D8E;
   color: #ffffff;
   border-radius: 6px;
   text-decoration: none;
@@ -140,17 +140,6 @@ section {
   transition: background-color 0.2s, transform 0.2s;
 }
 
-.view-btn:hover {
-  background-color: #215D8E;
-  transform: translateY(-2px);
-}
-
-/* Disabled state (Coming Soon) */
-.view-btn.disabled {
-  background-color: #999;
-  cursor: not-allowed;
-  transform: none;
-}
 
 .category-card {
   width: 100%;
