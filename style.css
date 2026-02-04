@@ -30,6 +30,28 @@ section h2 {
   height: auto;
 }
 
+/* About */ 
+.about-container { 
+  display: flex; 
+  align-items: center; 
+  gap: 20px; 
+  max-width: 900px; 
+  margin: 0 auto; 
+  padding: 20px; 
+} 
+
+.about-img { 
+  width: 200px;
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 12px; 
+} 
+.about-text { 
+  flex: 1; 
+  line-height: 1.6; 
+  font-size: 1rem; 
+}
+
 #hero-about {
   background: #082E6D;
 }
