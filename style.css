@@ -48,6 +48,14 @@ section h2 {
   color: #6CB1D3;
 }
 
+.hero-img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 12px;
+}
+
+
 #about {
   padding: 60px 20px;
 }
