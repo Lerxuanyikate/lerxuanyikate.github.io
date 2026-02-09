@@ -50,8 +50,8 @@ section h2 {
 
 .hero-img {
   width: 100%;
-  max-width: 130px;
-  height: 200;
+  max-width: 150px;
+  height: auto;
   border-radius: 12px;
 }
 
