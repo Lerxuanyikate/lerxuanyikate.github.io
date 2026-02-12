@@ -194,6 +194,27 @@ section {
   text-decoration: underline;
 }
 
+.project-detail {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.project-detail img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.project-detail ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-detail li {
+  margin: 8px 0;
+}
+
 #contact {
   text-align: center;
 }
