@@ -116,19 +116,6 @@ nav a:hover {
   color: #082E6D;
 }
 
-.hero {
-  padding: 70px 20px 50px 20px;
-}
-
-.hero h1 {
-  color: white;
-  font-size: 2.5rem;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  color: #6CB1D3;
-}
 
 section {
   padding: 70px 20px;
