@@ -198,12 +198,6 @@ section {
   text-align: center;
 }
 
-.project-detail img {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  margin: 20px 0;
-}
 
 .project-detail ul {
   list-style: none;
