@@ -13,7 +13,7 @@ header.navbar {
   justify-content: space-between;
   align-items: center;
   background-color: #215D8E;
-  padding: 5px 5px;
+  padding: 2px 2px;
   flex-wrap: wrap;
   width: 100%;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -33,7 +33,7 @@ section h2 {
 }
 
 .hero {
-  padding: 70px 15px 40px 15px;
+  padding: 65px 15px 40px 15px;
   min-height: 50vh;
   text-align: center;
 }
